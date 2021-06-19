@@ -7,7 +7,7 @@ public class Main {
 если она кратна 3, вывести buzz
 если она кратна 2 и 3, вывести fizzbuzz
 иначе, вывести саму цифру */
-/*слева направо*/
+        /*слева направо*/
         String number = "347693485";
         for(int i=0; i<number.length(); i++){
             int temp= number.charAt(i);
@@ -44,7 +44,7 @@ public class Main {
         }
         System.out.println(" ");
 
-/*2.	Дано число типа long. Посчитать в нем количество битов, имеющих значение 1.*/
+        /*2.	Дано число типа long. Посчитать в нем количество битов, имеющих значение 1.*/
         long numLong=333;
         int numInt= (int) numLong;
         String numString=Integer.toBinaryString(numInt);
